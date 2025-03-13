@@ -1,0 +1,12 @@
+// src/styles/main.scss
+
+@use '_var';
+@use '_font';
+
+body {
+    background-color: var.$bg;  // Используйте пространство имен `var`
+    font-family: var.$font-stack;  // Используйте пространство имен `var`
+}
+
+
+
